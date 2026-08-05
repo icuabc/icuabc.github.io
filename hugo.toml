@@ -3,3 +3,7 @@ locale = 'pt-br'
 title = 'Ilhas de Calor Urbana'
 theme = 'ananke'
 enableRobotsTXT = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
