@@ -1,0 +1,40 @@
+User-agent: *
+{{/* robotstxt.org - if we are in production, allow access, else deny */ -}}
+{{ if hugo.IsProduction -}}
+Allow: /
+Sitemap: {{ "/sitemap.xml" | urls.AbsURL }}
+
+{{ else -}}
+Disallow: /
+
+{{ end -}}
+
+User-agent: Mediapartners-Google
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
