@@ -1,7 +1,13 @@
-<footer class="{{ .Site.Params.background_color_class | compare.Default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+<footer class="{{ .Site.Params.background_color_class | compare.Default " bg-black" }} bottom-0 w-100 pa3"
+  role="contentinfo">
   <div class="flex justify-between">
     <span class="f5 fw5 white-70 dn dib-ns pv2 ph3 no-undeline">
-    Feito por <a class="hover-white white-70 no-underline" href="mailto:willian.vinagre@aluno.ufabc.edu.br">Willian Vinagre</a> e Julio Cesar Stabile, alunos da graduação do Bacharelado em Ciência e Tecnologia da UFABC.
+      Feito por
+      <a class="hover-white white-70 no-underline" href="mailto:willian.vinagre@aluno.ufabc.edu.br">Willian Vinagre</a>
+      e
+      <a class="hover-white white-70 no-underline" href="mailto:julio.stabile@aluno.ufabc.edu.br">Julio Cesar
+        Stabile</a>,
+      alunos da graduação do Bacharelado em Ciência e Tecnologia da UFABC.
     </span>
     <div>{{ partials.IncludeCached "social/follow.html" . }}</div>
   </div>

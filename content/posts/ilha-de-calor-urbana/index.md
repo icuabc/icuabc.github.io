@@ -9,7 +9,7 @@ Ilhas de calor urbanas (ICU) podem ser descritas como bolsões de ar quente que 
   src="unesp-diagrama.png"
   alt="Gráfico demonstrando o aumento de temperatura em áreas urbanas"
   caption="Discrepância de temperatura em áreas urbanas e rurais."
-  attr="Unesp Para Jovens"
+  attr="(Unesp Para Jovens)"
   attrlink="https://parajovens.unesp.br/as-ilhas-de-calor-urbanas-e-o-que-elas-podem-nos-ensinar-sobre-as-mudancas-climaticas/"
   class="f6-ns tc-ns"
 >}}
